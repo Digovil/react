@@ -54,4 +54,7 @@ Son las unidades más pequeñas de React. Definen lo que se verá en la pantalla
 
 Los componentes en React están "hechos" de elementos.
 
+## Páginas 
+
+[Clon FreeCodeCamp](https://digovil-freecodecamp.netlify.app)
 

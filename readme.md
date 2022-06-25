@@ -58,3 +58,88 @@ Los componentes en React están "hechos" de elementos.
 
 [Clon FreeCodeCamp](https://digovil-freecodecamp.netlify.app)
 
+# Estructura de directorios 📁📋
+
+## Principiante
+
+    +--_public
+    +--_src
+    |  +--_components
+    |  +-- _styles
+    |  |   +-- app.css
+    |  +-- app.js
+    |  +-- index.js
+    |  +-- reportWebVitals.js
+    +-- .gitignore
+    +-- package.json
+    +-- README.md
+    +-- yarn.lock
+
+## Intermedio
+
+    +-- _public
+    +--_src
+    |  +-- _assets
+    |  |  +-- _images
+    |  |  +-- _videos
+    |  |  +-- _audios
+    |  +-- _auth
+    |  +-- _components
+    |  +-- _helpers
+    |  +-- _hooks
+    |  +-- _pages
+    |  |  +-- _home
+    |  |  |  +-- home.css
+    |  |  |  +-- home.jsx
+    |  |  +-- _example
+    |  |  |  +-- example.css
+    |  |  |  +-- example.jsx
+    |  |  +-- index.js
+    |  +-- app.js
+    |  +-- index.js
+    |  +-- reportWebVitals.js
+    +-- .gitignore
+    +-- package.json
+    +-- README.md
+    +-- yarn.lock
+
+## Avanzado
+
+    +-- config
+    +-- _public
+    +--_src
+    |  +-- _assets
+    |  |  +-- _images
+    |  |  +-- _videos
+    |  |  +-- _audios
+    |  +-- _components
+    |  +-- _constants
+    |  +-- _core-ui
+    |  +-- _helpers
+    |  +-- _hooks
+    |  +-- _interfaces
+    |  +-- _pages
+    |  |  +-- _home
+    |  |  |  +-- _test
+    |  |  |  +-- home.styles.ts
+    |  |  |  +-- home.tsx
+    |  |  +-- _example
+    |  |  |  +-- example.styles.ts
+    |  |  |  +-- example.tsx
+    |  |  +-- index.ts
+    |  +-- _services
+    |  +-- _validations
+    |  |  +-- _schemas
+    |  |  +-- index.ts
+    |  +-- app.ts
+    |  +-- index.ts
+    |  +-- reportWebVitals.ts
+    +-- .gitignore
+    +-- .dockerignore
+    +-- .eslintrc
+    +-- .prettierignore
+    +-- .prettierrc
+    +-- Dockerfile
+    +-- package.json
+    +-- README.md
+    +-- yarn.lock

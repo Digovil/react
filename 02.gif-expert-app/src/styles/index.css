@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+
+  --color-pink: #9cbdbd;
+  --color-pink-light: #CAF0F8;
+  --color-lilac: #3aa5a5;
+  --color-lilac-dark: #2a9191;
+  --color-blue: #90E0EF;
+  --color-blue-light: #0096C7;
+
+}
+
+
+li {
+  list-style: none;
+}
+
+input:focus,button:focus {
+  outline: none;
+}

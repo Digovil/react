@@ -1,0 +1,132 @@
+
+/* Contenedor header */
+
+.container-header {
+  padding: 20px;
+  width: 100%; 
+}
+
+.title {
+  color: var(--color-lilac);
+  text-shadow: 1px 2px var(--color-pink);
+  text-align: start;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+
+.findGif {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  box-shadow: 23px solid black;
+
+}
+
+.search > input[type="text"] {
+
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 9px 0px 0px 9px;
+  border: 3px solid var(--color-blue) !important; 
+  border-right: 0px !important;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.btnSearch {
+  background-color:  var(--color-lilac);
+  border-radius: 0px 9px 9px 0px;
+  border: 3px solid var(--color-blue) !important; 
+  border-left: 0px !important;
+  cursor: pointer;
+  padding: 7px;
+  color: #fff;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.btnSearch:hover {
+  background-color:  var(--color-lilac-dark);
+
+}
+
+/* Contenedor principal */
+
+.container-main {
+  width: 90%;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+/* Tarjetas de imagenes 😁*/
+
+#card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  align-content: center;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 150px !important;
+  height: 200px !important;
+  background-color: #fff;
+  box-shadow: 1px 2px 4px var(--color-pink);
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+  color:  var(--color-blue-light);
+  font-weight: bold;
+  font-size: 1rem;
+
+}
+
+.card img {
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 680px){
+  .card {
+
+    width: 100% !important;
+    height: 400px !important;
+  }
+
+  .card p {
+
+    font-size: 1.1rem;
+  
+  }
+
+  .card img {
+    width: 100% !important;
+    height: 80% !important;
+  }
+  
+}

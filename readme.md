@@ -145,3 +145,36 @@ Los componentes en React están "hechos" de elementos.
     +-- package.json
     +-- README.md
     +-- yarn.lock
+
+# Hooks 🧰
+
+Los hooks son funciones, no se pueden usar los hooks de manera condicional.
+
+## Profundizar en el tema de los Hooks
+
+## Crear otros customHooks
+
+## useState
+
+Permite añadir el estado de React a un componente de función o creado con funciones. 
+
+## useCounter - Personalizado
+
+## useEffect y sus precauciones
+
+Nos permite ejecutar algun efecto secundario cuando algo ocurra en nuestros componentes.
+El retorno sirve para demontar el componente.
+
+## useRef
+
+## useFetch - Personalizado + optimizaciones
+
+Este custom hooks nos permite hacer peticiones a cualquier url.
+
+## useLayoutEffect
+
+## Memo
+
+## useMemo
+
+## useCallback

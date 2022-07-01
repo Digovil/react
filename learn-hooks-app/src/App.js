@@ -3,6 +3,8 @@ import CounterApp from './components/useState/CounterApp';
 import CounterCustom from './components/useState/CounterCustom';
 import SimpleForm from './components/useEffect/SimpleForm';
 import FormCustom from './components/useEffect/FormCustom';
+import FocusScreen from "./components/useRef/FocusScreen";
+import MultipleCustomHooks from './components/examples/MultipleCustomHooks';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
             <CounterCustom />
             <SimpleForm />
             <FormCustom />
+            <FocusScreen />
+            <MultipleCustomHooks />
           </div>
         </div>
       </div>

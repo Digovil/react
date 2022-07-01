@@ -8,18 +8,16 @@ import MultipleCustomHooks from './components/examples/MultipleCustomHooks';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App min-vh-100">
      
       <div className='container'>
         <div className='row'>
-          <div className='col-12'>
-            <CounterApp />
-            <CounterCustom />
-            <SimpleForm />
-            <FormCustom />
-            <FocusScreen />
-            <MultipleCustomHooks />
-          </div>
+        <div className='col-lg-4'><CounterApp /></div>
+        <div className='col-lg-4'><CounterCustom /></div>
+        <div className='col-lg-4'><SimpleForm /></div>
+        <div className='col-lg-4'><FormCustom /></div>
+        <div className='col-lg-4'><FocusScreen /></div>
+        <div className='col-lg-4'><MultipleCustomHooks /></div>
         </div>
       </div>
     </div>
